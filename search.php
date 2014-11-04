@@ -82,6 +82,7 @@ $("#searchid").click(function(){
 <input type='text' name='middlename' value="<?php if(isset($middle_name)){echo $middle_name; }?>">
 <input type='submit' name='search' value='Search'>
 <input type='submit' name='add' value='Add New'>
+<input type='submit' name='delete' value='Delete'>
 <div id="result"></div>
 </form>
 </body>
